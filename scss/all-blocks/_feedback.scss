@@ -172,6 +172,31 @@
             &__item{
                 width: 50%;
                 align-items: center;
+        
+                &__desc{
+                    text-align: center;
+                }
+            }
+            &__item2{
+                width: 50%;
+                align-items: center;
+        
+                &__desc{
+                    text-align: center;
+                }
+            }
+            &__item3{
+                width: 50%;
+                align-items: center;
+        
+                &__desc{
+                    text-align: center;
+                }
+            }
+            &__item4{
+                width: 50%;
+                align-items: center;
+        
                 &__desc{
                     text-align: center;
                 }
@@ -183,7 +208,7 @@
 @media screen and (max-width: 625px){
     .feedback{
         .cards{
-            &__item{
+            &__item, &__item2, &__item3, &__item4{
                 width: 100%;
                 
             }
